@@ -18,11 +18,6 @@
 	 *
 	 */
 
-      $sftp = new \SFTPConnection("access866287113.webspace-data.io");
-	          	$sftp->login("u104308076", "Sist3mas@75");
-	         	$sftp->subirFichero("rutaAbsolutaServidor/ficheroOriginal", "rutaAbsoultaServidorDestino/ficheroNuevo");
-	 
-
 	class conexionSFTP {
 		
 		private $conexion;
